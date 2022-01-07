@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  /*===== Colores =====*/
+  --first-color: #f2a20c;
+  --white-color: #e9eaec;
+  --dark-color: #272d40;
+  --dark-color-lighten: #f2f5ff;
+  /*===== Fuente y tipografia =====*/
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.card-brand,
+.card-sponser {
+  display: inline;
+}
+.card-tag {
+  display: block;
+  opacity: 5;
+}
+.card-rating-box {
+  display: flex;
+  font-size: (var(--small-font-size));
+  border: 1px solid black;
+  padding: 0.5rem 0;
+  width: 28vh;
+  margin: 1rem 0;
+}
+.card-line {
+  border: 0.1px solid black;
+}
+.card-price,
+.card-off {
+  display: inline;
+}
+.card-taxTag {
+  font-size: var(--small-font-size);
+  color: green;
+}
+.card-off {
+  color: red;
+  padding: 1rem;
+}
+.card-taxTag {
+  display: block;
+}
+.card-size-box {
+  margin: 0.3rem;
+  border: 1px solid black;
+  width: 6vh;
+  padding: 0.4rem 0.3rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.card-box {
+  display: flex;
+}
+
+.card-btn {
+  padding: 0.7rem;
+  background-color: #fecaca;
+  width: 20vh;
+  margin: 1.5rem 0.4rem;
+}
+.card-btn .card-add {
+  background-color: #fecaca;
+}
+.card-condition-box {
+  margin: 1.5rem 0;
+}
+
+.card-checktag {
+  font-size: var(--small-font-size);
+}
+.card-offers-list .card-offer-price {
+  display: inline;
+}
